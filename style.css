@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: url(https://www.bollore-transport-logistics.com/uploads/tx_templavoila/btl_headerD.jpg)no-repeat center center / cover;
+    padding: 100px 0;
+}    
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.container {
+    width: 80%;
+    min-height: 800px;
+    border: 6px solid white;
+    margin: 100px auto;
+    background: white;
+}
+
+.header{
+    display: flex;
+    height: 150px;
+}
+
+.title-block {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    font-size: 35px;
+    background: url("https://phonoteka.org/uploads/posts/2021-05/1621740870_10-phonoteka_org-p-fon-dlya-prezentatsii-po-transportu-11.jpg");
+    color: white;
+    margin-right: 40px;
+}
+
+.title-block::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;;
+    background: #000;
+    opacity: 0.5;
+}
+
+.title {
+    position: relative;
+    z-index: 1;
+}
+
+.userpic{
+    display: flex;
+    height: 100%;
+    width: 13%;
+    background: url(https://sun9-81.userapi.com/impg/LV-eV17YCtq4x9BPbWnKGojbzOiUpCHFrvRwow/38oqXYMzmQ4.jpg?size=617x584&quality=95&sign=a1df0bd1089dec2ce5ca68761f9e8188&type=album) no-repeat center center / cover;
+}
+ 
+.navigation ul {
+    display: flex;
+    background: #e4e4e4;
+    margin: 10px 0;
+}
+
+.navigation li a {
+    display: flex;
+    padding: 20px;
+    text-decoration: none;
+    color: #404040;
+    font-weight: bold;
+    border-right: 1px solid #c0bebe;
+}
+
+.navigation li a:hover {
+    background: #aaaaaa;
+}
+
+.content-wrapper {
+    display: flex;
+}
+
+.content {
+    width: 100%;
+    padding: 20px;
+}
+
+.sidebar {
+   padding: 20px; 
+   width: 30%;
+}
+
+.skills li {
+    padding: 10px 0;
+    transition: transform .5s ease;
+    cursor: pointer;
+}
+
+.skills li:hover {
+    transform: translateX(10px);
+}
+
+.marker {
+    
+    list-style-type: disc; //li точка
+    list-style-position: inside;
+ }
+
