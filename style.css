@@ -59,7 +59,7 @@ h3 {
     display: flex;
     height: 100%;
     width: 13%;
-    background: url("https://sun9-81.userapi.com/impg/LV-eV17YCtq4x9BPbWnKGojbzOiUpCHFrvRwow/38oqXYMzmQ4.jpg?size=617x584&quality=95&sign=a1df0bd1089dec2ce5ca68761f9e8188&type=album") no-repeat center center / cover;
+    background: url(https://sun9-81.userapi.com/impg/LV-eV17YCtq4x9BPbWnKGojbzOiUpCHFrvRwow/38oqXYMzmQ4.jpg?size=617x584&quality=95&sign=a1df0bd1089dec2ce5ca68761f9e8188&type=album) no-repeat center center / cover;
 }
  
 .navigation ul {
