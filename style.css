@@ -113,4 +113,6 @@ h3 {
 
 .text-block {
     font-style: italic;
+    color: #fff;
+    background-color: #ffe4c4;
 }
