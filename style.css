@@ -112,5 +112,5 @@ h3 {
  }
 
 .text-block {
-    span style="font-style:italic;"
+    font-style: italic;
 }
