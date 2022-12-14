@@ -117,3 +117,8 @@ h3 {
     background-color: #f0e7dd;
     border-radius: 20px 10px 0;
 }
+
+.foto {
+    float: right;
+    margin: 0 0 5px 5px;
+}
